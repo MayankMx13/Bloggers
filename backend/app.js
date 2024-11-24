@@ -24,7 +24,7 @@ const connectionToDatabase = async () => {
     console.log("Connected to MongoDB successfully");
 
     app.listen(PORT, () => {
-      console.log("listening to : http://localhost:3000");
+      console.log("connected backend");
     });
   } catch (error) {
     console.log(error);
