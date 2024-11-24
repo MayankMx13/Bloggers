@@ -9,6 +9,7 @@ import userRoute from "./routes/user.route.js";
 dotenv.config();
 const app = express();
 const DATABASE = process.env.DATABASE_URI;
+const PORT = process.env.PORT || 4000;
 app.use(cors({ origin: "http://localhost:5173", credentials: true }));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -22,7 +23,7 @@ const connectionToDatabase = async () => {
     await mongoose.connect(DATABASE);
     console.log("Connected to MongoDB successfully");
 
-    app.listen(3000, () => {
+    app.listen(PORT, () => {
       console.log("listening to : http://localhost:3000");
     });
   } catch (error) {
