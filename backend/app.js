@@ -12,7 +12,7 @@ const DATABASE = process.env.DATABASE_URI;
 const PORT = process.env.PORT || 4000;
 app.use(
   cors({
-    origin: "https://bloggers-teal.vercel.app/",
+    origin: "https://bloggers-teal.vercel.app",
     credentials: true,
   })
 );
