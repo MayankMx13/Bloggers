@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const apiReq = axios.create({
-  baseURL: "http://localhost:3000",
+  baseURL: "https://bloggers-j9hw.onrender.com",
   withCredentials: true,
 });
 
