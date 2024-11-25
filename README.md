@@ -5,7 +5,7 @@
 
 ## Overview
 
-**Note :server takes 4 min to load....**
+**Note :server takes 2 min to load....**
 
 **Blogger** is a dynamic and user-friendly blogging platform designed to simplify content creation and sharing. Whether you're a casual writer, professional blogger, or someone looking to showcase your ideas, Blogger provides the tools you need to create and publish engaging blog posts.
 
