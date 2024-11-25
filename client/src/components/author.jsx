@@ -64,7 +64,7 @@ function Author() {
                         />
                     </div>
                     <div className="leading-tight ">
-                        <div className="font-bold">{author.name || "John Doe"}</div>
+                        <div className="font-bold capitalize">{author.name || "John Doe"}</div>
                         <div>{author.designation || "Author"}</div>
                     </div>
                 </div>

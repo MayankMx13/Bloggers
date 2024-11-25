@@ -57,9 +57,9 @@ function SinglePage() {
 
     return (
         <div className="mt-4 mb-10 flex flex-col gap-5">
-            <h2 className="text-white bg-[#4B6BFB] text-base font-medium p-1 rounded-md object-fit">{post.tag}</h2>
+            <h2 className="text-white bg-[#4B6BFB] text-base font-medium p-1 rounded-md object-fit capitalize">{post.tag}</h2>
 
-            <h1 className="mt-3 font-bold lg:text-3xl">{post.title}</h1>
+            <h1 className="mt-3 font-bold lg:text-3xl capitalize">{post.title}</h1>
 
             <div className="flex gap-4 items-center justify-start mb-5">
                 {post.author?.image && (
@@ -82,7 +82,7 @@ function SinglePage() {
             </div>
 
             <div className="w-full h-full flex align-center justify-center" >
-                <div className="xl:w-1/2 xl:h-1/2 mt-5 md:text-lg xl:text-xl text-justify font-serif">{first}</div>
+                <div className="xl:w-1/2 xl:h-1/2 mt-5 md:text-lg xl:text-xl text-justify font-serif capitalize">{first}</div>
             </div>
 
             <div className="w-full h-full flex align-center justify-center rounded-md text-xl font-bold">
