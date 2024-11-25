@@ -5,6 +5,8 @@
 
 ## Overview
 
+**Note :server takes 4 min to load....**
+
 **Blogger** is a dynamic and user-friendly blogging platform designed to simplify content creation and sharing. Whether you're a casual writer, professional blogger, or someone looking to showcase your ideas, Blogger provides the tools you need to create and publish engaging blog posts.
 
 ## Features
@@ -19,10 +21,10 @@
 ## Tech Stack
 
 - **Frontend**: React.js,tailwindCSS with modern UI components
-- **Backend**: [Node.js/Django/Rails/Flask] for robust server-side operations
-- **Database**: [MongoDB/PostgreSQL/MySQL] for storing user and content data
-- **Authentication**: [JWT/OAuth2/Firebase] for secure user sessions
-- **Hosting**: [Heroku/Netlify/Vercel/AWS] for seamless deployment
+- **Backend**: Node.js for robust server-side operations
+- **Database**: MongoDB for storing user and content data
+- **Authentication**: JWT ,bcrypt for secure user sessions
+- **Hosting**: vercel,render.com for seamless deployment
 
 ## Installation
 
