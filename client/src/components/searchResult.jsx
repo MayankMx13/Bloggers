@@ -42,7 +42,7 @@ function SearchResults() {
 
     return (
         <div className="p-8">
-            <h1 className="text-2xl font-bold mb-4">Search Results for</h1>
+            <h1 className="text-2xl font-bold mb-4">Search Results for ${query}</h1>
             {results.length > 0 ? (
 
 
