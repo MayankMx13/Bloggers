@@ -17,7 +17,7 @@ function Card({ post }) {
             </span>
             <h3 className="text-wrap font-medium lg:text-xl capitalize">{post.title}</h3>
             <div className="flex items-center justify-start gap-2 ">
-                <img src={post.author?.image || "/profile.png"} alt="Author" className="w-4 h-4 rounded-lg" />
+                <img src={post.author?.image || "/profile.png"} alt="Author" className="w-5 h-5 rounded-lg" />
                 <span className="text-[9px] md:text-sm capitalize">{post.author?.name || "Unknown Author"}</span>
 
             </div>
