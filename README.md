@@ -9,7 +9,7 @@
 
 **Blogger** is a dynamic and user-friendly blogging platform designed to simplify content creation and sharing. Whether you're a casual writer, professional blogger, or someone looking to showcase your ideas, Blogger provides the tools you need to create and publish engaging blog posts.
 
-![Preview of Virtual R](https://drive.google.com/uc?id=1FEVH8bSNW4Da987F11nJJIfo-TiHdAOj)
+![Preview of Virtual R](https://drive.google.com/file/d/1YS5M7arA8WdX3Mqd1OkBAV7bl2KhMv75)
 
 
 ## Features
