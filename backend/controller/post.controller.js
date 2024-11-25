@@ -60,7 +60,7 @@ export const getPost = async (req, res) => {
 
 export const getPosts = async (req, res) => {
   try {
-    const posts = await Post.find().populate("author", "name");
+    const posts = await Post.find().populate("author", "name image");
     res.json(posts);
   } catch (error) {
     res.status(500).json({ message: "error fetching data" });
