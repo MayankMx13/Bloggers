@@ -66,7 +66,7 @@ function SinglePage() {
                     <img
                         src={post.author.image}
                         alt="Author's profile"
-                        className="w-4 h-4 rounded-full"
+                        className="w-6 h-6 rounded-full"
                     />
                 )}
                 <span className="text-[9px] md:text-sm">
