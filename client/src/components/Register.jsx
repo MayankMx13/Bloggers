@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import apiReq from "../../apiReq";
 
@@ -12,6 +12,7 @@ function Register() {
         const file = e.target.files[0];
         setProfileImage(file);
     };
+
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -45,6 +46,11 @@ function Register() {
             console.error("Error registering user:", error.response);
         }
     };
+
+    useEffect(() => {
+        const token = localStorage.getItem('authToken');
+        console.log(token);
+    }, []);
 
 
     return (
