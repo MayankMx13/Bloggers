@@ -69,7 +69,7 @@ function SinglePage() {
                         className="w-6 h-6 rounded-full"
                     />
                 )}
-                <span className="text-[9px] md:text-sm">
+                <span className="text-[9px] text-lg md:text-sm">
                     {post.author?.name || "Unknown Author"}
                 </span>
                 <span>{new Date(post.createdAt).toLocaleDateString()}</span>
