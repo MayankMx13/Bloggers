@@ -55,7 +55,7 @@ function Register() {
 
     return (
         <div className="w-full h-screen flex justify-center items-center relative">
-            <div className="flex flex-col lg:w-1/4 lg:h-1/4 items-center gap-3 absolute">
+            <div className="flex flex-col w-1/2 lg:w-1/4 lg:h-1/4 items-center gap-3 absolute">
                 <h1 className="text-3xl font-bold">BloGGer</h1>
                 <h2 className="font-bold">Create an Account</h2>
 
