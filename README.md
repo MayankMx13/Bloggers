@@ -1,6 +1,5 @@
-Here’s a general **README.md** template for your Blogger project on GitHub. Make sure to customize it further with specific details about your project.
 
----
+
 
 # Blogger Project
 
@@ -56,21 +55,6 @@ Here’s a general **README.md** template for your Blogger project on GitHub. Ma
 1. Navigate to `http://localhost:3000` (or the port you've configured).
 2. Sign up or log in to create your first blog post.
 3. Use the dashboard to manage content and settings.
-
-## Contributing
-
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-   ```bash
-   git checkout -b feature-name
-   ```
-3. Commit your changes and push to your fork.
-   ```bash
-   git push origin feature-name
-   ```
-4. Open a pull request and describe your changes.
 
 ## License
 
