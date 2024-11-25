@@ -47,7 +47,7 @@ function Navbar() {
                 <input
                     type="text"
                     className="border-4 border-none rounded-2xl p-2 w-[200px] sm:w-[300px] md:w-[350px] bg-[#F4F4F5]"
-                    placeholder="Search by Category..."
+                    placeholder="Search by Title..."
                     value={searchQuery}
                     onChange={(e) => setSearchQuery(e.target.value)}
                 />
