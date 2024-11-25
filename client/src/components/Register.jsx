@@ -55,7 +55,7 @@ function Register() {
 
     return (
         <div className="w-full h-screen flex justify-center items-center relative">
-            <div className="flex flex-col w-1/2 lg:w-1/4 lg:h-1/4 items-center gap-3 absolute">
+            <div className="flex flex-col w-2/3 lg:w-1/4 lg:h-1/4 items-center gap-3 absolute">
                 <h1 className="text-3xl font-bold">BloGGer</h1>
                 <h2 className="font-bold">Create an Account</h2>
 
@@ -89,6 +89,7 @@ function Register() {
                     type="file"
                     name="image"
                     accept="image/*"
+                    placeholder="Profile Picture"
                     onChange={handleFileChange}
                     className="w-full px-10 py-3 border-2 border-black"
                 />
