@@ -15,7 +15,7 @@ function SinglePage() {
     useEffect(() => {
         const fetchPost = async () => {
             try {
-                console.log(id);
+                // console.log(id);
 
                 const response = await apiReq.get(`/api/post/${id}`);
                 setPost(response.data);
