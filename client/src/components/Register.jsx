@@ -29,7 +29,6 @@ function Register() {
 
             console.log(formData);
 
-            // Send the form data directly
             const response = await apiReq.post("/api/user/createUser", formData);
 
             console.log(response);
@@ -48,8 +47,9 @@ function Register() {
     };
 
     useEffect(() => {
-        const token = localStorage.getItem('authToken');
-        console.log(token);
+        // A state or condition that triggers the submission
+        handleSubmit();
+
     }, []);
 
 
