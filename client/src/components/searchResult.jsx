@@ -41,8 +41,8 @@ function SearchResults() {
     }
 
     return (
-        <div className="p-8">
-            <h1 className="text-2xl font-bold mb-4">Search Results for {query}</h1>
+        <div className="md:p-8 mt-4 flex items-center justify-center flex-col">
+            <h1 className="text-sm font-bold mb-4">Search Results for {query}</h1>
             {results.length > 0 ? (
 
 

@@ -57,32 +57,32 @@ function SinglePage() {
 
     return (
         <div className="mt-4 mb-10 flex flex-col gap-5">
-            <h2 className="text-white bg-[#4B6BFB] text-base font-medium p-1 rounded-md object-fit capitalize">{post.tag}</h2>
+            <h2 className="text-white bg-blue-600 text-sm md:text-base font-medium p-2 rounded-md object-fit capitalize">{post.tag}</h2>
 
-            <h1 className="mt-3 font-bold lg:text-3xl capitalize">{post.title}</h1>
+            <h1 className=" md:mt-3 font-bold lg:text-3xl capitalize">{post.title}</h1>
 
-            <div className="flex gap-4 items-center justify-start mb-5">
+            <div className="flex gap-4 items-center justify-start md:mb-5">
                 {post.author?.image && (
                     <img
                         src={post.author.image}
                         alt="Author's profile"
-                        className="w-6 h-6 rounded-full"
+                        className="w-5 h-5 md:w-6 md:h-6 rounded-full"
                     />
                 )}
-                <span className="text-[9px] text-lg md:text-sm capitalize">
+                <span className=" text-sm md:text-[9px] lg:text-lg font-bold md:text-sm capitalize ">
                     {post.author?.name || "Unknown Author"}
                 </span>
-                <span>{new Date(post.createdAt).toLocaleDateString()}</span>
+                <span className="text-sm text-gray-400 font-serif">{new Date(post.createdAt).toLocaleDateString()}</span>
             </div>
 
-            <div className="w-full h-full flex align-center justify-center rounded-md ">
+            <div className="w-full h-[200px] md:h-[300px] flex align-center justify-center rounded-md ">
 
-                <img className=" w-full xl:w-1/2 xl:h-full object-fill  rounded-md md:shadow-md" src={post.imageUrl} alt="" />
+                <img className="w-full xl:w-1/2 xl:h-full object-fit rounded-md md:shadow-md" src={post.imageUrl} alt="" />
 
             </div>
 
             <div className="w-full h-full flex align-center justify-center" >
-                <div className="xl:w-1/2 xl:h-1/2 mt-5 md:text-lg xl:text-xl text-justify font-serif capitalize">{first}</div>
+                <div className="text-xs md:w-full md:text-lg xl:w-1/2 xl:h-1/2 mt-5  text-justify ">{first}</div>
             </div>
 
             <div className="w-full h-full flex align-center justify-center rounded-md text-xl font-bold">
@@ -93,7 +93,7 @@ function SinglePage() {
             <div className="w-full h-full flex align-center justify-center">
 
 
-                <div className="md:w-full lg:text-lg   xl:w-1/2 xl:h-1/2 mt-5 xl:text-xl text-justify font-serif">{second}</div>
+                <div className="text-xs md:w-full md:text-lg xl:w-1/2 xl:h-1/2 mt-5  text-justify ">{second}</div>
 
             </div>
 

@@ -6,12 +6,14 @@ import { Outlet } from "react-router-dom";
 function Layout() {
 
     return (
-        <div className="layout px-10 md:px-20 lg:px-32">
-            <div className="navbar">
+        <div className="layout ">
+            <div className="navbar px-10 md:px-20 lg:px-32">
                 <Navbar />
             </div>
-            <div className="content">
+            <div className="content px-10 md:px-20 lg:px-32">
                 <Outlet />
+            </div>
+            <div>
                 <Footer />
             </div>
         </div>
